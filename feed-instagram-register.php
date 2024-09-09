@@ -56,8 +56,8 @@ function feed_instagram_handle_registration() {
         }
 
         // Enviar datos a Airtable
-        $airtable_url = 'https://api.airtable.com/v0/appzmB3zBmwWkhnkn/Usuarios';
-        $airtable_key = 'patv59bjnbEGUFZG8.cd0546b6e89b9368307894b52c97ef81268d5253071ed72b4d94d955b441b576'; // Tu API Key
+        $airtable_url = 'https://api.airtable.com/v0clave de usuarios/Usuarios';
+        $airtable_key = 'aqui va la api key si usas esta repo by jesus jimenez'; // Tu API Key
         $response = wp_remote_post($airtable_url, array(
             'headers' => array(
                 'Authorization' => 'Bearer ' . $airtable_key,
